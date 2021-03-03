@@ -23,9 +23,9 @@ const PortfolioList = [
   },
   {
     image: "image-4",
-    category: "Projects",
+    category: "Password: canada",
     title: "Shopify Store",
-    imgUrl: "#in-progress",
+    imgUrl: "https://nabilgj.myshopify.com/",
   },
 ];
 
