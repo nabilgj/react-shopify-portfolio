@@ -5,9 +5,9 @@ import { portfolioSlick2 } from "../../../page-demo/script";
 const PortfolioList = [
   {
     image: "image-1",
-    category: "Projects",
-    title: "Website Development",
-    imgUrl: "/service",
+    category: "Password: canada",
+    title: "Shopify Store",
+    imgUrl: "https://khannabil.myshopify.com/",
   },
   {
     image: "image-2",
@@ -31,7 +31,7 @@ const PortfolioList = [
 
 const settings = {
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 4000,
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -56,6 +56,7 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
+
           <div className="portfolio-slick-activation mt--70 mt_sm--40">
             <Slider {...portfolioSlick2} {...settings}>
               {PortfolioList.map((value, index) => (
@@ -92,4 +93,6 @@ class Portfolio extends Component {
     );
   }
 }
+
+// into demo
 export default Portfolio;

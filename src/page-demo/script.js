@@ -22,7 +22,7 @@ export const portfolioSlick = {
 // into Portfolio for home page
 export const portfolioSlick2 = {
   infinite: true,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   dots: true,
   arrows: true,
