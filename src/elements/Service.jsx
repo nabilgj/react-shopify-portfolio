@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+
+import { Link } from "react-router-dom";
+
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import {
@@ -84,7 +87,7 @@ class Service extends Component {
                   className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
                   key={i}
                 >
-                  <a href="/contact">
+                  <Link to="/contact">
                     <div className="service service__style--2">
                       <div className="icon">{val.icon}</div>
                       <div className="content">
@@ -93,7 +96,7 @@ class Service extends Component {
                         <p>{val.connect}</p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
@@ -116,9 +119,9 @@ class Service extends Component {
                   </p>
 
                   <div className="portfolio-button">
-                    <a className="rn-btn" href="/contact" target="_blank">
+                    <Link className="rn-btn" to="/contact">
                       Send Inquiry
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -141,9 +144,9 @@ class Service extends Component {
                     Ecommerce tool aka Shopify
                   </p>
 
-                  <a className="rn-btn" href="/contact" target="_blank">
+                  <Link className="rn-btn" to="/contact">
                     Send Inquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

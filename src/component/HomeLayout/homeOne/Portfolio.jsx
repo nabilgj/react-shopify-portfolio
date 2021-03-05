@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Slider from "react-slick";
 import { portfolioSlick2 } from "../../../page-demo/script";
 
@@ -19,7 +20,7 @@ const PortfolioList = [
     image: "image-3",
     category: "Projects",
     title: "React with Redux & Material UI",
-    imgUrl: "https://arc-development.netlify.app/",
+    imgUrl: "https://arc-development.netlify.app",
   },
   {
     image: "image-4",

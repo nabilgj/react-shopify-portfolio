@@ -21,11 +21,6 @@ import Service from "./elements/Service";
 
 import error404 from "./elements/error404";
 
-// Blocks Layout
-// import Team from "./blocks/Team";
-// import Portfolio from "./blocks/Portfolio";
-// import Gallery from "./blocks/Gallery";
-
 import ContactForm from "./blocks/ContactForm";
 import GoogleMap from "./blocks/GoogleMap";
 
@@ -63,32 +58,6 @@ class Root extends Component {
             path={`${process.env.PUBLIC_URL}/contact`}
             component={Contact}
           />
-
-          {/* Blocks Elements  */}
-          {/* 
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/team`}
-            component={Team}
-          /> */}
-
-          {/* <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/testimonial`}
-            component={Testimonial}
-          /> */}
-
-          {/* <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/portfolio`}
-            component={Portfolio}
-          /> */}
-
-          {/* <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/gallery`}
-            component={Gallery}
-          /> */}
 
           <Route
             exact

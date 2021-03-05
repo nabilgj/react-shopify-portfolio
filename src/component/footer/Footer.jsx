@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+
+import { Link } from "react-router-dom";
+
 import {
   FaTwitter,
   FaInstagram,
@@ -28,9 +31,9 @@ class Footer extends Component {
                     <h2>
                       Lets <br /> Connect
                     </h2>
-                    <a className="rn-button-style--2" href="/contact">
+                    <Link className="rn-button-style--2" to="/contact">
                       <span>Reach us</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

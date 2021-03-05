@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+
+import { Link } from "react-router-dom";
+
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 
@@ -11,7 +14,7 @@ class About extends Component {
   render() {
     let title = "About Myself",
       description =
-        "I am a Toronto based Web Developer. I have completed a 58 weeks Diploma in Web Application Developer with JavaScript as core. I've got hands on experience working with 3 different companies in the Greater Toronto Area ";
+        "I am a Toronto based Web Developer, completed a 58 weeks Diploma in Web Application Development with JavaScript as core. I've got hands on experience working with 3 different companies in the Greater Toronto Area ";
 
     return (
       <React.Fragment>
@@ -67,13 +70,13 @@ class About extends Component {
                         className="portfolio-button"
                         style={{ marginTop: "3rem" }}
                       >
-                        <a
+                        <Link
                           className="rn-btn"
-                          href="./NabilResume.pdf"
+                          to="./NabilResume.pdf"
                           target="_blank"
                         >
                           Check Resume
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -97,17 +100,9 @@ class About extends Component {
                   developing their websites using React, Redux, Material UI &
                   Firebase.
                 </p>
-                <a className="rn-btn btn-white" href="/contact">
+                <Link className="rn-btn btn-white" to="/contact">
                   Lets Talk
-                </a>
-              </div>
-            </div>
-            <div className="thumbnail">
-              <div className="image">
-                <img
-                  src="/assets/images/about/finding-us-01.png"
-                  alt="Finding Images"
-                />
+                </Link>
               </div>
             </div>
           </div>
@@ -131,73 +126,67 @@ class About extends Component {
             <div className="row">
               {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                <div className="team">
-                  <div className="thumbnail">
-                    <img
-                      className="w-100"
-                      src="/assets/images/team/team-05.jpg"
-                      alt="Blog Images"
-                    />
+                <a href="https://www.tech-gis.com" target="_blank">
+                  <div className="team">
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        src="/assets/images/team/team-05.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                    <div className="content">
+                      <h4 className="title">Tech GIS</h4>
+                      <p className="designation">React SPA</p>
+                    </div>
                   </div>
-                  <div className="content">
-                    <h4 className="title">Tech GIS</h4>
-                    <p className="designation">React SPA</p>
-                  </div>
-                </div>
+                </a>
               </div>
               {/* End Single Team  */}
 
               {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                <div className="team">
-                  <div className="thumbnail">
-                    <img
-                      className="w-100"
-                      src="/assets/images/team/team-06.jpg"
-                      alt="Blog Images"
-                    />
+                <a href="https://arc-development.netlify.app" target="_blank">
+                  <div className="team">
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        src="/assets/images/team/team-06.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                    <div className="content">
+                      <h4 className="title">Arc Develpment</h4>
+                      <p className="designation">React Material UI</p>
+                    </div>
                   </div>
-                  <div className="content">
-                    <h4 className="title"> Arc Develpment</h4>
-                    <p className="designation">React Material UI</p>
-                  </div>
-                </div>
+                </a>
               </div>
               {/* End Single Team  */}
 
               {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                <div className="team">
-                  <div className="thumbnail">
-                    <img
-                      className="w-100"
-                      src="/assets/images/team/team-07.jpg"
-                      alt="Blog Images"
-                    />
+                <a href="https://nabilgj.myshopify.com/" target="_blank">
+                  <div className="team">
+                    <div className="thumbnail">
+                      <img
+                        className="w-100"
+                        src="/assets/images/team/team-07.jpg"
+                        alt="Blog Images"
+                      />
+                    </div>
+                    <div className="content">
+                      <h4 className="title">Shopify Store</h4>
+                      <p className="designation">In progress</p>
+                    </div>
                   </div>
-                  <div className="content">
-                    <h4 className="title">Shopify Store</h4>
-                    <p className="designation">In progress</p>
-                  </div>
-                </div>
+                </a>
               </div>
               {/* End Single Team  */}
             </div>
           </div>
         </div>
         {/* End Team Area  */}
-
-        {/* Start Brand Area */}
-        {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <BrandTwo />
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* End Brand Area */}
 
         {/* Start Back To Top */}
         <div className="backto-top">

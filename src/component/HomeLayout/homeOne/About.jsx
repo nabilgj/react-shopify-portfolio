@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { Link } from "react-router-dom";
+
 class About extends Component {
   render() {
     let title = "About",
@@ -48,9 +50,9 @@ class About extends Component {
                       className="portfolio-button"
                       style={{ marginTop: "3rem" }}
                     >
-                      <a className="rn-btn" href="/about">
+                      <Link className="rn-btn" to="/about">
                         Know More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
