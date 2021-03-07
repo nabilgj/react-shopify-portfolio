@@ -109,8 +109,9 @@ class ContactTwo extends Component {
               <div className="section-title text-left mb--50">
                 <h2 className="title">Contact Me</h2>
                 <p className="description">
-                  Send me your inquiry with the specification for your website
-                  you need
+                  Send me your inquiry with the specification of your websites
+                  or your e-commerce stores either setting up from scratch or
+                  making it more creative for end users
                 </p>
               </div>
               <div className="form-wrapper">

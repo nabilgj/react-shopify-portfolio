@@ -19,34 +19,40 @@ const ServiceList = [
   {
     icon: <FiLayers />,
     title: "Website Design",
-    description: "Design & Develop amazingly beautiful websites.",
+    description: "Design & Develop amazingly interactive websites.",
     connect: "Email or call for the qoute",
   },
   {
     icon: <FiUsers />,
     title: "React SPA",
-    description: "I can transform those designs into React SPA",
+    description: "Can transform those designs into React SPA",
     connect: "Email or call for the qoute",
   },
   {
     icon: <FiMonitor />,
     title: "React MPA",
     description:
-      "You can also have dynamic website where data can come from external source like firebase",
+      "You can also have dynamic website where data can come from external source",
     connect: "Email or call for the qoute",
   },
   {
     icon: <FiCast />,
-    title: "Shopify Store",
-    description:
-      "I can also deisgn shopify store for simple ecommerce business",
+    title: "Simple Shopify Store",
+    description: "Also deisgn shopify store for simple ecommerce business",
     connect: "Email or call for the qoute",
   },
   {
     icon: <FiMonitor />,
-    title: "Shopify Store",
+    title: "Advance Shopify Store",
     description:
-      "I can also deisgn shopify store for complex business requirements",
+      "Also deisgn & manage all aspects of e-commerce stores including products, customers & orders management",
+    connect: "Email or call for the qoute",
+  },
+  {
+    icon: <FiMonitor />,
+    title: "Complex Shopify Store",
+    description:
+      "All the tools of Avance store plus proper SEO stuff to rank your store top in google ranking, plus Analytics, Marketing for your product through different media channels and much more",
     connect: "Email or call for the qoute",
   },
 ];
@@ -74,9 +80,9 @@ class Service extends Component {
                   <h2>Web & App</h2>
                   <p>
                     Your presence on the web is essential. <br /> If you’re not
-                    there, people can’t find you, clients don’t know you exist
-                    and can’t reach you <br /> either physically or through
-                    digital channels.
+                    there, people can’t find you, they won't know you exist and
+                    can’t reach you <br /> either physically or through digital
+                    channels.
                   </p>
                 </div>
               </div>
@@ -141,7 +147,8 @@ class Service extends Component {
                     If you run a retail shop or looking to start an e-commerce
                     store for your business, <br />
                     don't worry I've got you covered with the most powerful
-                    Ecommerce tool aka Shopify
+                    Ecommerce tool aka Shopify with all its functionality
+                    including products, customers & orders management
                   </p>
 
                   <Link className="rn-btn" to="/contact">

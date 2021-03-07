@@ -32,7 +32,7 @@ class Footer extends Component {
                       Lets <br /> Connect
                     </h2>
                     <Link className="rn-button-style--2" to="/contact">
-                      <span>Reach us</span>
+                      <span>Reach Me</span>
                     </Link>
                   </div>
                 </div>

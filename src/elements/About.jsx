@@ -93,12 +93,13 @@ class About extends Component {
             <div className="content-wrapper">
               <div className="content">
                 <h4 className="theme-gradient">
-                  Looking for Web Developer for your business?
+                  Looking for Web & Shopify Store Developer for your portfolio
+                  or ecommerce store?
                 </h4>
                 <p>
                   I have been working with different clients for designing and
                   developing their websites using React, Redux, Material UI &
-                  Firebase.
+                  Firebase
                 </p>
                 <Link className="rn-btn btn-white" to="/contact">
                   Lets Talk
@@ -117,8 +118,9 @@ class About extends Component {
                 <div className="section-title service-style--3 text-center mb--25">
                   <h2 className="title">Projects</h2>
                   <p>
-                    I have done couples of projects for different clients and I
-                    would like to showcase them for your reference
+                    Some of the projects that I have done lately for different
+                    companies and my personal projects to showcase the skills &
+                    capability of the stuff you will be taken care of
                   </p>
                 </div>
               </div>
