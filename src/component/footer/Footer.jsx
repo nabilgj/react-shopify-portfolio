@@ -31,9 +31,21 @@ class Footer extends Component {
                     <h2>
                       Lets <br /> Connect
                     </h2>
-                    <Link className="rn-button-style--2" to="/contact">
+
+                    <div className="social-share-inner">
+                      <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
+                        {SocialShare.map((val, i) => (
+                          <li key={i}>
+                            <a href={`${val.link}`} target="_blank">
+                              {val.Social}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    {/* <Link className="rn-button-style--2" to="/contact">
                       <span>Reach Me</span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -41,7 +53,7 @@ class Footer extends Component {
                 <div className="footer-right" data-black-overlay="6">
                   <div className="row">
                     {/* Start Single Widget  */}
-                    <div className="col-lg-6 col-sm-6 col-12">
+                    {/* <div className="col-lg-6 col-sm-6 col-12">
                       <div className="footer-link">
                         <h4>Instant Links</h4>
                         <ul className="ft-link">
@@ -49,16 +61,16 @@ class Footer extends Component {
                             <a href="/about">About</a>
                           </li>
                           <li>
-                            <a href="/portfolio">Projects</a>
+                            <a href="/service">Projects</a>
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                     {/* End Single Widget  */}
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                       <div className="footer-link">
-                        <h4>Reach us at</h4>
+                        <h4>Reach me at</h4>
                         <ul className="ft-link">
                           <li>
                             <a href="mailto:info@company.com">
@@ -70,7 +82,7 @@ class Footer extends Component {
                           </li>
                         </ul>
 
-                        <div className="social-share-inner">
+                        {/* <div className="social-share-inner">
                           <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                             {SocialShare.map((val, i) => (
                               <li key={i}>
@@ -80,7 +92,7 @@ class Footer extends Component {
                               </li>
                             ))}
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     {/* End Single Widget  */}

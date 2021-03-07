@@ -69,9 +69,9 @@ class Header extends Component {
           <div className="header-left">
             <div className="logo">
               {/* <a href="/">{logoUrl}</a> */}
-              <a href="/" style={{ color: "#fff" }}>
+              <Link to="/" style={{ color: "#fff" }}>
                 nabilgj
-              </a>
+              </Link>
             </div>
           </div>
           <div className="header-right">

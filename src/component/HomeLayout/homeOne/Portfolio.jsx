@@ -42,8 +42,7 @@ const settings = {
 class Portfolio extends Component {
   render() {
     let title = "Projects",
-      description =
-        "Here are some of the projects that I did for my clients and one of the project Arc Development is from udemy learning.";
+      description = "Here are some of my projects";
     return (
       <React.Fragment>
         <div className="portfolio-wrapper">

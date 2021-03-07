@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     let title = "About",
       description =
-        "Web Developer with over 1 year of experience in designing and creating highly interactive and dynamic user interfaces with React, Redux, Material-UI & Firebase";
+        "Web Developer with experience in designing and creating highly interactive and dynamic user interfaces with React, Redux, Material-UI & Firebase";
 
     return (
       <React.Fragment>
@@ -29,29 +29,29 @@ class About extends Component {
                     <h2 className="title">{title}</h2>
                     <p className="description">{description}</p>
                   </div>
-                  <div className="row mt--30 mt_sm--10">
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div className="row mt--10 mt_sm--10">
+                    {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">React Developer</h3>
-                        <p>
-                          Over 1 year of experience with React, Redux & Material
-                          UI
-                        </p>
+                        <p>Create SPA with React, Redux & Material UI</p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">Shopify Developer</h3>
-                        <p>Design & Customize Shopify stores for clients</p>
+                        <p>
+                          Design & Customize Shopify Stores for simple & complex
+                          product collections
+                        </p>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div
                       className="portfolio-button"
                       style={{ marginTop: "3rem" }}
                     >
                       <Link className="rn-btn" to="/about">
-                        Know More
+                        Learn More
                       </Link>
                     </div>
                   </div>

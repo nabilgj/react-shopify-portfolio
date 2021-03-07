@@ -109,9 +109,8 @@ class ContactTwo extends Component {
               <div className="section-title text-left mb--50">
                 <h2 className="title">Contact Me</h2>
                 <p className="description">
-                  Send me your inquiry with the specification of your websites
-                  or your e-commerce stores either setting up from scratch or
-                  making it more creative for end users
+                  Would love to hear from you! Please reach out with any
+                  questions
                 </p>
               </div>
               <div className="form-wrapper">
@@ -145,7 +144,7 @@ class ContactTwo extends Component {
                       id="item03"
                       value={this.state.subject}
                       onChange={this.onSubjectChanged}
-                      placeholder="Write a Subject"
+                      placeholder="Subject *"
                     />
                   </label>
                   <label htmlFor="item04">
@@ -155,7 +154,7 @@ class ContactTwo extends Component {
                       name="message"
                       value={this.state.message}
                       onChange={this.onMessageChanged}
-                      placeholder="Your Message"
+                      placeholder="Message *"
                     />
                   </label>
                   <button

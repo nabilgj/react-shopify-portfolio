@@ -19,41 +19,35 @@ const ServiceList = [
   {
     icon: <FiLayers />,
     title: "Website Design",
-    description: "Design & Develop amazingly interactive websites.",
-    connect: "Email or call for the qoute",
+    description: "Cand design & develop amazingly interactive websites",
+    connect: "Email or call for a qoute",
   },
   {
     icon: <FiUsers />,
     title: "React SPA",
-    description: "Can transform those designs into React SPA",
-    connect: "Email or call for the qoute",
+    description: "Can transform designs into React SPA",
+    connect: "Email or call for a qoute",
   },
   {
     icon: <FiMonitor />,
     title: "React MPA",
     description:
-      "You can also have dynamic website where data can come from external source",
-    connect: "Email or call for the qoute",
+      "Can create a dynamic website where data can come from external sources",
+    connect: "Email or call for a qoute",
   },
   {
     icon: <FiCast />,
-    title: "Simple Shopify Store",
-    description: "Also deisgn shopify store for simple ecommerce business",
-    connect: "Email or call for the qoute",
+    title: "Basic Shopify Store",
+    description:
+      "Can deisgn and manage your Shopify store upto 5 pages with 5 products",
+    connect: "Email or call for a qoute",
   },
   {
-    icon: <FiMonitor />,
-    title: "Advance Shopify Store",
+    icon: <FiCast />,
+    title: "Premium Shopify Store",
     description:
-      "Also deisgn & manage all aspects of e-commerce stores including products, customers & orders management",
-    connect: "Email or call for the qoute",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Complex Shopify Store",
-    description:
-      "All the tools of Avance store plus proper SEO stuff to rank your store top in google ranking, plus Analytics, Marketing for your product through different media channels and much more",
-    connect: "Email or call for the qoute",
+      "Can deisgn and manage your Shopify store upto 10 pages with 10 products including customer and order management, as well as SEO, analytics and media marketing ",
+    connect: "Email or call for a qoute",
   },
 ];
 class Service extends Component {
@@ -79,10 +73,8 @@ class Service extends Component {
                 <div className="section-title text-center mb--30">
                   <h2>Web & App</h2>
                   <p>
-                    Your presence on the web is essential. <br /> If you’re not
-                    there, people can’t find you, they won't know you exist and
-                    can’t reach you <br /> either physically or through digital
-                    channels.
+                    Your presence on the web is essential <br /> If you’re not
+                    there, people can’t find you and they won't know you exist
                   </p>
                 </div>
               </div>
@@ -111,7 +103,7 @@ class Service extends Component {
         {/* End Service Area */}
 
         {/* Start Service Area */}
-        <div className="service-area ptb--120 bg_color--1">
+        {/* <div className="service-area ptb--120 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -119,9 +111,8 @@ class Service extends Component {
                   <h2>Website for your business</h2>
                   <p>
                     If you are looking for a website for your business, <br />
-                    I can design and develop single/multi page website using
-                    highly advance programming languages using JavsScript &
-                    React <br />
+                    I can design and develop a single/multi-page website using
+                    JavsScript & React <br />
                   </p>
 
                   <div className="portfolio-button">
@@ -133,22 +124,22 @@ class Service extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Service Area */}
 
         {/* Start Service Area */}
-        <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--1">
+        {/* <div className="service-area creative-service-wrapper pt--90 pb--120 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30">
                   <h2>E-commerce Store</h2>
                   <p>
-                    If you run a retail shop or looking to start an e-commerce
-                    store for your business, <br />
+                    If you run a retail shop or are looking to start an
+                    E-commerce store for your business, <br />
                     don't worry I've got you covered with the most powerful
-                    Ecommerce tool aka Shopify with all its functionality
-                    including products, customers & orders management
+                    E-commerce tool (Shopify), including product, customer &
+                    order management
                   </p>
 
                   <Link className="rn-btn" to="/contact">
@@ -158,7 +149,7 @@ class Service extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Service Area */}
 
         {/* Start Back To Top */}

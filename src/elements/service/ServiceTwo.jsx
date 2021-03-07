@@ -30,7 +30,7 @@ class ServiceTwo extends Component {
   render() {
     let title = "Services",
       description =
-        "I make highly advance and responsive React SPA and shopify stores";
+        "I make highly advanced and responsive React SPA and shopify stores";
 
     return (
       <React.Fragment>
@@ -40,8 +40,8 @@ class ServiceTwo extends Component {
               <h2 className="title">{title}</h2>
               <p>{description}</p>
               <div className="service-btn">
-                <Link className="btn-transparent rn-btn-dark" to="/contact">
-                  <span className="text">Lets connect</span>
+                <Link className="btn-transparent rn-btn-dark" to="/service">
+                  <span className="text">Explore More</span>
                 </Link>
               </div>
             </div>
@@ -50,15 +50,13 @@ class ServiceTwo extends Component {
             <div className="row service-one-wrapper">
               {ServiceList.map((val, i) => (
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                  <Link to="/service">
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
+                  <div className="service service__style--2">
+                    <div className="icon">{val.icon}</div>
+                    <div className="content">
+                      <h3 className="title">{val.title}</h3>
+                      <p>{val.description}</p>
                     </div>
-                  </Link>
+                  </div>
                 </div>
               ))}
             </div>

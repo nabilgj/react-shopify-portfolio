@@ -92,7 +92,7 @@ class Contact extends Component {
                   </div>
                   <div className="inner">
                     <h4 className="title">Location</h4>
-                    <p>Pickering, Greater Toronto Area</p>
+                    <p>Greater Toronto Area</p>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ class Contact extends Component {
         {/* End Contact Page Area  */}
 
         {/* Start Contact Map  */}
-        <div className="rn-contact-map-area position-relative">
+        {/* <div className="rn-contact-map-area position-relative">
           <div style={{ height: "650px", width: "100%" }}>
             <GoogleMapReact
               defaultCenter={this.props.center}
@@ -122,7 +122,7 @@ class Contact extends Component {
               />
             </GoogleMapReact>
           </div>
-        </div>
+        </div> */}
         {/* End Contact Map  */}
 
         {/* Start Back To Top */}
@@ -133,7 +133,7 @@ class Contact extends Component {
         </div>
         {/* End Back To Top */}
 
-        <Footer />
+        {/* <Footer /> */}
       </React.Fragment>
     );
   }

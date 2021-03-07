@@ -61,16 +61,16 @@ class Demo extends Component {
                 <div className="section-title text-left">
                   <h2>Recent Updates</h2>
                   <p>
-                    I have started creating amazingly powerful ecommerce store
-                    using Shopify. Some of the stores that I am working lately
-                    are
+                    I have started creating amazingly powerful E-commerce stores
+                    using Shopify. Check out some of the stores I am currently
+                    working on
                   </p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
                   <a className="btn-transparent rn-btn-dark" href="/service">
-                    <span className="text">View All News</span>
+                    <span className="text">View All Services</span>
                   </a>
                 </div>
               </div>
@@ -102,7 +102,7 @@ class Demo extends Component {
                           href={`${value.imgUrl}`}
                           target="_blank"
                         >
-                          See Inside
+                          Check Inside
                         </a>
                       </div>
                     </div>
@@ -119,11 +119,9 @@ class Demo extends Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                {/* <BrandTwo /> */}
                 <div style={{ textAlign: "center", margin: "5rem auto" }}>
                   <h3 style={{ fontSize: "2.5rem" }}>
-                    We are in the The Globalisation of A Digital Age, make it or
-                    lose it
+                    We are in The Globalisation of A Digital Age
                   </h3>
                 </div>
               </div>

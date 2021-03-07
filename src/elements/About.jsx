@@ -12,9 +12,9 @@ import Footer from "../component/footer/Footer";
 
 class About extends Component {
   render() {
-    let title = "About Myself",
+    let title = "About Me",
       description =
-        "I am a Toronto based Web Developer, completed a 58 weeks Diploma in Web Application Development with JavaScript as core. I've got hands on experience working with 3 different companies in the Greater Toronto Area ";
+        "I am a Toronto based Web Developer with a diploma in Web Application Development with an emphasis on JavaScript. I've got hands on experience working with different companies in the Greater Toronto Area ";
 
     return (
       <React.Fragment>
@@ -53,16 +53,13 @@ class About extends Component {
                       <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div className="about-us-list">
                           <h3 className="title">React Developer</h3>
-                          <p>
-                            Over 1 year of experience with React, Redux &
-                            Material UI
-                          </p>
+                          <p>Experience in React, Redux & Material UI</p>
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div className="about-us-list">
                           <h3 className="title">Shopify Developer</h3>
-                          <p>Design & Customize Shopify stores for clients</p>
+                          <p>Design & Customize Shopify Stores</p>
                         </div>
                       </div>
 
@@ -75,7 +72,7 @@ class About extends Component {
                           to="./NabilResume.pdf"
                           target="_blank"
                         >
-                          Check Resume
+                          Resume
                         </Link>
                       </div>
                     </div>
@@ -93,14 +90,14 @@ class About extends Component {
             <div className="content-wrapper">
               <div className="content">
                 <h4 className="theme-gradient">
-                  Looking for Web & Shopify Store Developer for your portfolio
-                  or ecommerce store?
+                  Looking for a Web or Shopify Store Developer for your
+                  portfolio or E-commerce store?
                 </h4>
-                <p>
+                {/* <p>
                   I have been working with different clients for designing and
                   developing their websites using React, Redux, Material UI &
                   Firebase
-                </p>
+                </p> */}
                 <Link className="rn-btn btn-white" to="/contact">
                   Lets Talk
                 </Link>
@@ -111,7 +108,7 @@ class About extends Component {
         {/* End Finding Us Area  */}
 
         {/* Start Team Area  */}
-        <div className="rn-team-area bg_color--1 ptb--120">
+        {/* <div className="rn-team-area bg_color--1 ptb--120">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -125,8 +122,8 @@ class About extends Component {
                 </div>
               </div>
             </div>
+
             <div className="row">
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <a href="https://www.tech-gis.com" target="_blank">
                   <div className="team">
@@ -144,9 +141,6 @@ class About extends Component {
                   </div>
                 </a>
               </div>
-              {/* End Single Team  */}
-
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <a href="https://arc-development.netlify.app" target="_blank">
                   <div className="team">
@@ -164,9 +158,6 @@ class About extends Component {
                   </div>
                 </a>
               </div>
-              {/* End Single Team  */}
-
-              {/* Start Single Team  */}
               <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                 <a href="https://nabilgj.myshopify.com/" target="_blank">
                   <div className="team">
@@ -184,10 +175,9 @@ class About extends Component {
                   </div>
                 </a>
               </div>
-              {/* End Single Team  */}
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Team Area  */}
 
         {/* Start Back To Top */}
